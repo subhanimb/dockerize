@@ -1,4 +1,4 @@
-node("docker") {
+node("docker-agent") {
     docker.withRegistry('<<subhanimb>>', '<<subhanimb>>') {
     
         git url: "<<https://github.com/subhanimb/dockerize.git>>", credentialsId: '<<subhanimb>>'
