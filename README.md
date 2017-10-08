@@ -1,2 +1,0 @@
-# dockerize
-dockerize with jenkins
